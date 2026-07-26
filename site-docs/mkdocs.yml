@@ -1,0 +1,9 @@
+site_name: The New Penguin Russian Course
+nav:
+  - Home: index.md
+  - Chapters:
+    - Chapter 1: chapters/ch_1.md
+    - Chapter 2: chapters/ch_2.md
+    - Chapter 3: chapters/ch_3.md
+    - Chapter 4: chapters/ch_4.md
+

@@ -8,7 +8,8 @@ from surya.inference import SuryaInferenceManager
 from surya.recognition import RecognitionPredictor
 
 INPUT_DIR = "chapters/"
-OUTPUT_DIR = "docs/"
+# The next run will add files to the MkDocs directory so they're ready to go.
+OUTPUT_DIR = "site-docs/docs/chapters/"
 
 manager = SuryaInferenceManager()
 rec = RecognitionPredictor(manager)
@@ -36,8 +37,7 @@ def scan_chapters():
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(markdown_content)
                 
-
-scan_chapters()
-
+def main():
+    scan_chapters()
 
 

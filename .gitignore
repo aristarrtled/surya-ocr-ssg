@@ -1,3 +1,4 @@
-/chapters
+/input_files/*
 /docs
-/venv
+site-docs/docs/chapters/*
+.vscode
